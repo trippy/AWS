@@ -1,0 +1,28 @@
+module CmExample;
+
+import cm.io;
+
+struct TexCoord {
+	u : f32;
+	v : f32;
+} 
+
+func foo : void { f : i32() -> f(); }
+
+func main {
+	var x : i32 = 0;
+	let y : i32 = 0;
+	let tex : TexCoord = { 12.0, 24.0 };
+
+	foo(main);
+
+	foo() { // The last of the function parameters Lambda Expressions can be written outside the function call
+		0
+	};
+	let someBool = true;
+	if (someBool) {
+		y = 0
+	};
+	puts("Hello World\n");
+	0
+}
